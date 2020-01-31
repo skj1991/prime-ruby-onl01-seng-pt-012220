@@ -4,7 +4,7 @@ def prime?(num)
     return false
   else
     (2..num - 1).to_a.all? do |n|
-      num % n
+      num % n !=
     end
   end
 end
